@@ -1,0 +1,11 @@
+
+#main {
+    width:100%;
+    display: inline-block;
+    transform: translateY(100%) rotateZ(90deg) scale(1.5,1.5);
+    transform-origin: 50% 50%;
+}
+
+#img_bg {
+    width:100%;
+}
