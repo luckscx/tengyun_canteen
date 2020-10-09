@@ -3,8 +3,8 @@ const crypto = require('crypto');
 const axios = require("axios")
 const wework = {}
 
-const wework_key = "b5d881aa-dabc-4737-beb7-cf73aaac8169"
-const wework_api = "http://in.qyapi.weixin.qq.com/cgi-bin/webhook/send?key=" + wework_key
+const wework_key = ""
+const wework_api = "http://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=" + wework_key
 
 wework.sendmarkdown = (str) => {
   axios.post(wework_api,{
