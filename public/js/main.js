@@ -49,6 +49,8 @@ const onConfirmBtn = (e) => {
      data : JSON.stringify(obj),
      contentType: "application/json; charset=utf-8",
    })
+   
+   alert("已通知")
 };
 
 const registerEvent = () => {
